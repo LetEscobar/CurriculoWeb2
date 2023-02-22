@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #ffffff;
+    display: flex;
+    background-color: #18212e;
+}
+
+header {
+    background-color: #232f3c;
+    width: 20%;
+    flex-direction: column;
+    display: flex;
+    padding: 50px 32px;
+}
+
+.foto {
+    width: 70%;
+    border-radius: 100%;
+    border: 5px solid #000000;
+    margin-left: 10%;
+}
+
+.sessao {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.titulo {
+    border-left: 4px solid #54b689;
+    font-family: 'Roboto';
+    padding-left: 12px;
+    font-weight: 700;
+}
+
+.texto {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.linha {
+    border: 2px solid #34404f;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+}

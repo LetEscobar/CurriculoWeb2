@@ -3,6 +3,15 @@
     margin: 0;
 }
 
+/* html {
+    font-size: 62.5%;
+} */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     color: #ffffff;
     display: flex;
@@ -14,7 +23,7 @@ header {
     width: 20%;
     flex-direction: column;
     display: flex;
-    padding: 50px 32px;
+    padding: 50px 40px;
 }
 
 .foto {
@@ -37,7 +46,9 @@ header {
     font-weight: 700;
 }
 
-.texto {
+.texto,
+li,
+.icon-text p {
     font-family: 'Inter';
     font-weight: 500;
     font-size: 16px;
@@ -52,9 +63,74 @@ header {
 .icon {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .endereco {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 30px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-decoration: underline;
+}
+
+.social img {
+    width: 40px;
+}
+
+.container {
+    width: 100%;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome-completo {
+    color: #61d4b9;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.sessao-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sessao-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 30%;
+}
+.sessao-container .titulo {
+    width: 100%;
+}
+
+.formacao {
+    padding-inline: 20px;
+    border-inline: 4px solid #34404f;
+}
+
+ul,
+.areas-atuacao {
+    padding-left: 36px;
+}
+
+.icon-text{
+    display: flex;
+    width: 100%;
 }
